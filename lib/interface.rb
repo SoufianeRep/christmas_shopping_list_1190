@@ -105,7 +105,7 @@ until action == 'quit'
     item = etsy_items[index]
     # add that item to my gift_list
     gift_list[item] = false
-    puts "#{etsy_items} has been added to the gift list"
+    puts "#{item} has been added to the gift list"
 
   when 'quit'
     puts "Bye Bye"
